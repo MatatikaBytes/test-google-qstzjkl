@@ -1,0 +1,14 @@
+{
+  "plugin_type": "files",
+  "name": "analyze-google-analytics",
+  "namespace": "tap_google_analytics",
+  "variant": "matatika",
+  "label": "Google Analytics Insights",
+  "repo": "https://github.com/Matatika/analyze-google-analytics",
+  "pip_url": "git+https://github.com/Matatika/analyze-google-analytics@v0.4.1",
+  "description": "Instant insights on users, locations, sources, and sessions from Google Analytics.",
+  "update": {
+    "*.yml": "true"
+  },
+  "full_description": "Instant insights on users, locations, sources, and sessions from Google Analytics."
+}
