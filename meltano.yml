@@ -10,6 +10,9 @@ plugins:
   - name: tap-google-analytics
     variant: matatika
     pip_url: git+https://github.com/Matatika/tap-google-analytics@v0.3.0
+  - name: tap-spreadsheets-anywhere
+    variant: matatika
+    pip_url: git+https://github.com/Matatika/tap-spreadsheets-anywhere@v0.2.0
   loaders:
   - name: target-postgres
     variant: transferwise
