@@ -13,6 +13,9 @@ plugins:
   - name: tap-spreadsheets-anywhere
     variant: matatika
     pip_url: git+https://github.com/Matatika/tap-spreadsheets-anywhere@v0.2.0
+  - name: tap-github
+    variant: matatika
+    pip_url: git+https://github.com/MeltanoLabs/tap-github.git
   loaders:
   - name: target-postgres
     variant: transferwise
